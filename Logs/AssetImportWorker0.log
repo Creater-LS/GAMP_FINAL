@@ -1,0 +1,520 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.43f1 (6f9470916942) revision 7312496'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 7865 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/2011d/Desktop/GAMP_FINAL
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51978
+Successfully changed project path to: C:/Users/2011d/Desktop/GAMP_FINAL
+C:/Users/2011d/Desktop/GAMP_FINAL
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8512] Host "[IP] 172.16.1.20 [Port] 0 [Flags] 2 [Guid] 3375824469 [EditorId] 3375824469 [Version] 1048832 [Id] WindowsEditor(7,SUN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8512] Host "[IP] 172.16.1.20 [Port] 0 [Flags] 2 [Guid] 3375824469 [EditorId] 3375824469 [Version] 1048832 [Id] WindowsEditor(7,SUN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 77.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.43f1 (6f9470916942)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/2011d/Desktop/GAMP_FINAL/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Vendor:   NVIDIA
+    VRAM:     1928 MB
+    Driver:   27.21.14.5256
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020731 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1876ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1472ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (830ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (667ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.6 KB). Loaded Objects now: 3586.
+Memory consumption went from 110.0 MB to 109.9 MB.
+Total: 3.287700 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.679400 ms  DeleteObjects: 0.113900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 317224.154489 seconds.
+  path: Assets/Multistory Dungeons 2/Scenes/Overview_01.unity
+  artifactKey: Guid(dcf480a6b9bc1d448b275ebaa63ca789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Scenes/Overview_01.unity using Guid(dcf480a6b9bc1d448b275ebaa63ca789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966f32b4f67820afb5e3aa258a064be8') in 0.022762 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(bb4abcd13b9e86446bc90e93a4bc349e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(bb4abcd13b9e86446bc90e93a4bc349e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b975f8cda201e7d13fc6a168893da43') in 0.078331 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.886773 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a305fa3fdfef74e47b682de5a5c7bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(a305fa3fdfef74e47b682de5a5c7bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f3cef2d3f669f98c920cf9e6a38473') in 0.006947 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.167030 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(c5a36dafec59a3d42a938637e3e4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(c5a36dafec59a3d42a938637e3e4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88071cca9413e43d28f0c43550d05ee1') in 0.015039 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.523972 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(1daa65e4128997740a453bfb59a6e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/StartScene.unity using Guid(1daa65e4128997740a453bfb59a6e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a5839d6394e016f7a0eecbaad369ca') in 0.019436 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.308681 seconds.
+  path: Assets/Scenes/MagicScene.unity
+  artifactKey: Guid(c5a36dafec59a3d42a938637e3e4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/MagicScene.unity using Guid(c5a36dafec59a3d42a938637e3e4a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe88593cad4bd2dbdd7fcfa45b4e7e1') in 0.020012 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.904103 seconds.
+  path: Assets/Scenes/FlyScene.unity
+  artifactKey: Guid(d4e2258d2ef84f846a9166915ca45cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/FlyScene.unity using Guid(d4e2258d2ef84f846a9166915ca45cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeb3203335338f83b2039a329ff0e18') in 0.013969 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.457985 seconds.
+  path: Assets/Scenes/ChangeScene.unity
+  artifactKey: Guid(757817a237e9f9b43b6decc7fadb2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ChangeScene.unity using Guid(757817a237e9f9b43b6decc7fadb2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dddb8af7facd5590b90a2a5300446f') in 0.014081 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.553996 seconds.
+  path: Assets/Scenes/BossScene.unity
+  artifactKey: Guid(1ec2743a6b73af24ea91a37655ae055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/BossScene.unity using Guid(1ec2743a6b73af24ea91a37655ae055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282e24b21e724d7f37009cb1604941a') in 0.017116 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.330400 seconds.
+  path: Assets/Scenes/EndingScene.unity
+  artifactKey: Guid(f47f672653f32f540ac2f5a792fbaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/EndingScene.unity using Guid(f47f672653f32f540ac2f5a792fbaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c42d8e5b5e3aeac0d39cf9e58e3736') in 0.019949 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.003721 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(36e7604246403f0448c8134c4af437e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/MainScene.unity using Guid(36e7604246403f0448c8134c4af437e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b577c82c7ffa28c3f603d4fcdcc589') in 0.018229 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 379.386369 seconds.
+  path: Assets/de-humani-corporis-fabrica/Materials
+  artifactKey: Guid(829a22fc3fbe1f7479da3b1ecdba8894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/de-humani-corporis-fabrica/Materials using Guid(829a22fc3fbe1f7479da3b1ecdba8894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb45e3e5291d15b5e2554b06b2eba7d0') in 0.027230 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031103 seconds.
+  path: Assets/de-humani-corporis-fabrica/Materials/Book.mat
+  artifactKey: Guid(9f041f0303bc0a240b252ebfaf91f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/de-humani-corporis-fabrica/Materials/Book.mat using Guid(9f041f0303bc0a240b252ebfaf91f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d3218cf1e1723a0b89832baeaab303') in 0.349587 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.284584 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props
+  artifactKey: Guid(f5514ea705d840568e3ae694276919c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props using Guid(f5514ea705d840568e3ae694276919c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a9237d7783a79099486f902742b9b7') in 0.016767 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004288 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrel_01.prefab
+  artifactKey: Guid(6b5fd7cab1f845b289850db8ab502261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrel_01.prefab using Guid(6b5fd7cab1f845b289850db8ab502261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaebe29027b142609f3b9df0a1ae0aaf') in 0.329610 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_05.prefab
+  artifactKey: Guid(9787aadb1e7e4d40967ab15f624bffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_05.prefab using Guid(9787aadb1e7e4d40967ab15f624bffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99fbfe43765c45c65fed1bf9896b02b') in 0.094300 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab
+  artifactKey: Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab using Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bb83f3dd99c896d1bc6454bf03e874') in 0.069161 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab
+  artifactKey: Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab using Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26794dde0bb1729898cfe0062e4571') in 0.062447 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_01.prefab
+  artifactKey: Guid(ba33a658c88349bb9fd179f37638e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candlestick_01.prefab using Guid(ba33a658c88349bb9fd179f37638e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871c749ca1e6714d5542ea3fccb8b81d') in 0.061685 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab
+  artifactKey: Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab using Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d12074b2d2733c66bdb25c55cf9107') in 0.054511 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_03.prefab
+  artifactKey: Guid(57216b0d7e1f41d396ea9e5bb9117953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_03.prefab using Guid(57216b0d7e1f41d396ea9e5bb9117953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14403efcbdb170827216f5049730f4de') in 0.053571 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Jug_03.prefab
+  artifactKey: Guid(6b3445fc9bfc4619a05c2ce6d9344db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Jug_03.prefab using Guid(6b3445fc9bfc4619a05c2ce6d9344db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3514b730590fd89b36a1a7e147666ad') in 0.050459 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_01.prefab
+  artifactKey: Guid(b83d1fb4a7e14defb6ab7dd86e0ff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_01.prefab using Guid(b83d1fb4a7e14defb6ab7dd86e0ff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea51bf0a83cbe7049301b509b2a1ac9') in 0.055129 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_03.prefab
+  artifactKey: Guid(1de99f1c9e134fa8b97f4d761833de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_03.prefab using Guid(1de99f1c9e134fa8b97f4d761833de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d85b9856746f034a004529dba76d86') in 0.050420 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_02.prefab
+  artifactKey: Guid(c0ec564d1f2148c99703100107fde91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Barrels_Preset_02.prefab using Guid(c0ec564d1f2148c99703100107fde91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964122476e696d9639575b414bcc9198') in 0.059262 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candle_04.prefab
+  artifactKey: Guid(1960faf6eb584ed791bfca46bf40ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candle_04.prefab using Guid(1960faf6eb584ed791bfca46bf40ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2761fc6ba47cd363af59fa5ac9ca2f61') in 0.068719 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candle_01.prefab
+  artifactKey: Guid(f92572ee929e4eb7a01d7dfecc063a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candle_01.prefab using Guid(f92572ee929e4eb7a01d7dfecc063a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e7725209984b0bc0c49816f3df3ace') in 0.064368 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Torch_01.prefab
+  artifactKey: Guid(c35b4f7b6db0440a8b9972af1d27adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Torch_01.prefab using Guid(c35b4f7b6db0440a8b9972af1d27adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fec99d20d56e6009469148c02dc0777') in 0.114937 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Jug_01.prefab
+  artifactKey: Guid(58d83b4a8dd8477883ef7bd4c4718519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Jug_01.prefab using Guid(58d83b4a8dd8477883ef7bd4c4718519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d510d6c9a3440dbbc1cfaa49187a56') in 0.071214 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Candles_02.prefab
+  artifactKey: Guid(502607ad5cbe456193f957ac30014e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Candles_02.prefab using Guid(502607ad5cbe456193f957ac30014e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a661ca4d8842cf0dd501c0ac858133') in 0.067188 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Multistory Dungeons 2/Prefabs/Props/Lamp_01.prefab
+  artifactKey: Guid(dfbde792590a4220a339d2b776e63f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Prefabs/Props/Lamp_01.prefab using Guid(dfbde792590a4220a339d2b776e63f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6bc71d31fd491a4bc1298e42171443') in 0.318988 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 64.256834 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Atlas_Furniture_01.psd
+  artifactKey: Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Textures/Atlas_Furniture_01.psd using Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ae6a60026e118f23c987d20c026a9') in 0.188857 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/FX_Halo_MD_01.psd
+  artifactKey: Guid(a173d92367364427b85b75417d68db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Textures/FX_Halo_MD_01.psd using Guid(a173d92367364427b85b75417d68db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c262fe185d6363393cf74a72bf4c9bf4') in 0.031948 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Atlas_Props_02_Specular.psd
+  artifactKey: Guid(57d83ff8241d40f7adc94897a9bd289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Textures/Atlas_Props_02_Specular.psd using Guid(57d83ff8241d40f7adc94897a9bd289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd36128e9b1de7c218367203b242d4e3') in 0.026929 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Atlas_Props_01_Normal.psd
+  artifactKey: Guid(30417f1afd654f81abf01d532f1a9160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Textures/Atlas_Props_01_Normal.psd using Guid(30417f1afd654f81abf01d532f1a9160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01364db75818771fdf5ba3c07faef1e') in 0.040166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Atlas_Props_01.psd
+  artifactKey: Guid(ee6f3aaa6abf4ce1a3100b4b20eeca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Multistory Dungeons 2/Textures/Atlas_Props_01.psd using Guid(ee6f3aaa6abf4ce1a3100b4b20eeca71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883d6ca8befd8f3145f6f6d73a73c271') in 0.034339 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.689947 seconds.
+  path: Assets/de-humani-corporis-fabrica/textures/Book.png
+  artifactKey: Guid(0589e1982fc5cb4488d275b99423e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/de-humani-corporis-fabrica/textures/Book.png using Guid(0589e1982fc5cb4488d275b99423e096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d48aa11685a8034560b2291d580758') in 0.062080 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/de-humani-corporis-fabrica/textures/Book_Roughness.png
+  artifactKey: Guid(158581bac6daf2743bbc0ca15fb6feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/de-humani-corporis-fabrica/textures/Book_Roughness.png using Guid(158581bac6daf2743bbc0ca15fb6feea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e71342ea128e8bfae2f6bfe61d2eb6') in 0.045702 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.561755 seconds.
+  path: Assets/de-humani-corporis-fabrica/source/Book.fbx
+  artifactKey: Guid(d678b0f89e626c34cb3f87fd3c7cba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/de-humani-corporis-fabrica/source/Book.fbx using Guid(d678b0f89e626c34cb3f87fd3c7cba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0257d0b7c4ff4a6249bf93cb5003b45e') in 0.068595 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 9.166105 seconds.
+  path: Assets/__MACOSX/de-humani-corporis-fabrica
+  artifactKey: Guid(3d3340f3dc01ffd4faa07c7222e2085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/__MACOSX/de-humani-corporis-fabrica using Guid(3d3340f3dc01ffd4faa07c7222e2085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e13a38997b17bb541fc8da7933e68ca') in 0.016661 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.236505 seconds.
+  path: Assets/__MACOSX/de-humani-corporis-fabrica/textures
+  artifactKey: Guid(33a4c7d91a155a547b0be58d1e3ddc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/__MACOSX/de-humani-corporis-fabrica/textures using Guid(33a4c7d91a155a547b0be58d1e3ddc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2caea3ed28e858a1f3a4a26565b4065') in 0.023450 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 85.286649 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242eb3f8ccddee1d20804eaa3e2360db') in 0.016384 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.189722 seconds.
+  path: Assets/ColorMaterial
+  artifactKey: Guid(60ff4740f46231e4a851b6d9bd183d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ColorMaterial using Guid(60ff4740f46231e4a851b6d9bd183d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11abb7b34f78dee72f2afcd4315f25e5') in 0.016192 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.462669 seconds.
+  path: Assets/ColorMaterial/Black.mat
+  artifactKey: Guid(d41c3b42517d4fa41a2ce8e57d9c22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ColorMaterial/Black.mat using Guid(d41c3b42517d4fa41a2ce8e57d9c22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce50accf068b7ae6a7d4d023eabfa4e9') in 0.034848 seconds 
+Number of asset objects unloaded after import = 1
